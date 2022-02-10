@@ -1,2 +1,3 @@
-Need goals
-jknecwbwnlkxnxnnnknsxlkqnlknosd
+Requirements:
+Introduction
+Covid-19 vaccinations in India happened in a flash, making tracking extremely difficult. Several slow running issues and crashes occurred as a result of the server's multiple input and output commands. To allot the vaccines, the Aadhar details were used, so it was run on a central server. To avoid using a central server for all commands, the vaccine-registered data will be placed onto a local server. Local vaccination data verification and completion will be done locally and loaded back to the main server before the end of the day.
