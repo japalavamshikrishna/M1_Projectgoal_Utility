@@ -1,1 +1,1 @@
-![image](/2_Architecture/image.jpg)
+![image](/2_Architecture/image)
