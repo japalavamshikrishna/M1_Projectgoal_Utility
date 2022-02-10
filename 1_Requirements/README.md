@@ -5,15 +5,19 @@ Where the assigned online registration data will be placed onto the local server
 
 # Advantages
  . Smoother data handling.
+ 
  . Data readily available for verification.
 
 # Disadvantages
  .Encryption is not enabled to protect the data
+ 
  .OTP verification is not activated for new registrations.
 
 # SWOT Analysis
  .Tracking to deploy the pace of vaccine
+ 
  .Recorded data is sent to main central database
+ 
  .Local vaccine centre data base enabling Smoother operations
 
 # 4W1H
@@ -35,12 +39,16 @@ Where the assigned online registration data will be placed onto the local server
 
 # High Level Requirements
  .Here it is implemented that user to be able to add new registerations
+ 
  .It has Implemented that  System should recognize Vaccinated Patients
+ 
  .System should Recognize the invalid Credentials
 
 # Low Level Requirements
  .The list of Vaccinated Must be set an output
+ 
  .Vaccine must be tracked for the use within a day.
+ 
  .Total quantity of vaccine must be used by the end of the day 
 
 
