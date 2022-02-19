@@ -3,17 +3,16 @@
 
 int regist_status(long p){
 
-    // Checks for registration details of new patients    
-    pd[0].aadhar=p;
-    int i=1;
-    while(i<=1000){
-        if(pd[i].aadhar==pd[0].aadhar){
-            if(pd[i].vaccine_type==0)
+    // Checks for registration details of new customer    
+    pd[0].c_aadhar=p;
+    for(int i=1;i<=1000;i++){
+        if(pd[0].aadhar==pd[i].c_aadhar){
+            if(pd[i].c_vaccine_type==0)
                 return 0;
             else
                 return 1;
         }
-        i++;
+   
     }
     return -1;
 }
@@ -21,13 +20,13 @@ int regist_status(long p){
 // Checks how many doses should be given
 int vaccine_status(int i){
      
-    if (pd[i].vaccine_doses==0){
-        pd[i].vaccine_doses++;
+    if (pd[i].c_vacchine_doses==0){
+        pd[i].c_vacchine_doses++;
         return 1;}
-    else if(pd[i].vaccine_doses==1){
-        pd[i].vaccine_doses++;
+    else if(pd[i].c_vacchine_doses==1){
+        pd[i].c_vacchine_doses++;
         return 2;}
-    else if (pd[i].vaccine_doses==2){
+    else if (pd[i].c_vacchine_doses==2){
         return 3;}
     else
         return 0;
